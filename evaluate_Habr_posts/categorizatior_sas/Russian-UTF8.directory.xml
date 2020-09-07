@@ -1,0 +1,928 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TeragramDirectoryStructureV3>
+<ResultsPerPage><![CDATA[10]]></ResultsPerPage>
+<CaseSensitiveConcepts/>
+<RelevancyType><![CDATA[1]]></RelevancyType>
+<UTF8TestingDocs><![CDATA[1]]></UTF8TestingDocs>
+<MECUseUnigram/>
+<UniqueCategoryIDCheck><![CDATA[1]]></UniqueCategoryIDCheck>
+<Topic>
+<StringID><![CDATA[Top]]></StringID>
+<catpath><![CDATA[Top]]></catpath>
+<rules type="LINGUISTICS">
+<![CDATA[
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+]]>
+</rules>
+<ratio><![CDATA[0]]></ratio>
+<TestPath><![CDATA[C:\Tk240\komanda_zdorovie\Split_texts\part1]]></TestPath>
+<RuleStatus><![CDATA[1]]></RuleStatus>
+<DisplayName><![CDATA[Top]]></DisplayName>
+<Name><![CDATA[Top]]></Name>
+<ShortName><![CDATA[Top]]></ShortName>
+</Topic>
+<Topic>
+<StringID><![CDATA[Top/science_words]]></StringID>
+<catpath><![CDATA[Top/science_words]]></catpath>
+<rules type="LINGUISTICS">
+<![CDATA[ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+]]>
+</rules>
+<ratio><![CDATA[10]]></ratio>
+<CreationDate><![CDATA[May 27, 2014]]></CreationDate>
+<ModificationDate><![CDATA[May 29, 2014]]></ModificationDate>
+<TestPath><![CDATA[C:\Tk240\komanda_zdorovie\Split_texts\part1]]></TestPath>
+<RuleStatus><![CDATA[1]]></RuleStatus>
+<DisplayName><![CDATA[science_words]]></DisplayName>
+<Name><![CDATA[science_words]]></Name>
+<ShortName><![CDATA[science_words]]></ShortName>
+</Topic>
+<Topic>
+<StringID><![CDATA[Top/science_words/logic]]></StringID>
+<catpath><![CDATA[Top/science_words/logic]]></catpath>
+<rules type="BOOLEAN">
+<![CDATA[(OR,"Во-первых","Во-вторых",(DIST_5,"в","то","же","время"),"В-третьих",(DIST_4,"с","одной","стороны"),(DIST_4,"с","другой","стороны"),"напротив",(DIST_4,"в","свою","очередь"),(DIST_7,"в","связи","с","этим","аналогичным","образом"),(DIST_4,"для","сравнения","возьмем"),(DIST_3,"кроме","того"),(DIST_3,"при","этом"),"добавим",(DIST_3,"следует","добавить"),(DIST_3,"помимо","этого"),(DIST_4,"в","довершении","к"),(DIST_3,"остюда","следует"),"следовательно",(DIST_6,"Сущность","вышеизложенного","сводится","к"),(DIST_5,"из","сказанного","ранее","вытекает"),(DIST_3,"Статья","представляет"),(DIST_4,"обратим","внимание","на"),(DIST_4,"остюда","следует","вывод"),(DIST_6,(OR,"вычисление","наблюдение"),"приводит","к","следующему","результату"),(DIST_5,"перейдем","к"," следующему","вопросу"),(DIST_5,"это","дает","основание","говорить","о"),(DIST_4,"это","говорит","о"),"вначале","сначала",(DIST_3,"прежде","всего"),"продолжим",(DIST_4,"в","первую","очередь"),(DIST_3,"начнем","с"),(DIST_4,"начать","необходимо","с"),"затем","теперь","сейчас","далее","позже","позднее","дальше",(DIST_3,"дальнейший","ход","рассуждений"),(DIST_4,"еще","одна","закономерность"),(DIST_2,"в","дальнейшем"),(DIST_2,"в","последствии"),(DIST_3,"ниже",(OR,"следует","приводятся")),(DIST_4,"в","последуйщем","изложении"),(DIST_5,"Сущность","проблемы",(OR,"сводится","заключается","состоит в"))) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+]]>
+</rules>
+<ratio><![CDATA[10]]></ratio>
+<CreationDate><![CDATA[May 27, 2014]]></CreationDate>
+<ModificationDate><![CDATA[May 29, 2014]]></ModificationDate>
+<TestPath><![CDATA[C:\Tk240\komanda_zdorovie\Split_texts\part1\]]></TestPath>
+<RuleStatus><![CDATA[1]]></RuleStatus>
+<DisplayName><![CDATA[logic]]></DisplayName>
+<Name><![CDATA[logic]]></Name>
+<ShortName><![CDATA[logic]]></ShortName>
+</Topic>
+<Topic>
+<StringID><![CDATA[Top/science_words/utochnenie]]></StringID>
+<catpath><![CDATA[Top/science_words/utochnenie]]></catpath>
+<rules type="BOOLEAN">
+<![CDATA[(OR,"Точнее",(DIST_2,"иначе","говоря"),(DIST_3,"лучше","сказать"),(DIST_2,"так","сказать"),(DIST_3,"ясно","что"),(DIST_3,"а","именно"),(DIST_2,"инными","словами"),(DIST_3,"в","другой","терминологии"),(DIST_2,"обратим","внимание"),(DIST_3,"среди","чего"),"заметим",(DIST_2,"что","касается"),(DIST_3,"следует","выделить"),(DIST_3,"необходимо","подчеркнуть"),"Подчеркнем","Основное",(DIST_3,"самое","главное"),(DIST_2,"основной","тезис"),"существенно",(DIST_4,"наиболее","важным","представляется"),"Существенно",(DIST_4,"существенно","то","что"),(DIST_3,"следует",(OR,"отметить","учесть")),"даже","особенно",(DIST_4,"именно","в","этом"),"Здесь",(DIST_3,"наиболее","заметен"),"Подчеркнем",(DIST_2,"важно","отметить"),(DIST_2,"необходимо","подчеркнуть"),(DIST_5,"особо","следует","выделить","следующие","положения"),(DIST_3,"особо","следует","выделить"),(DIST_5,"речь","идет","о","проблеме"),(DIST_4,"следует","заметить","что")) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+]]>
+</rules>
+<ratio><![CDATA[10]]></ratio>
+<CreationDate><![CDATA[May 27, 2014]]></CreationDate>
+<ModificationDate><![CDATA[May 27, 2014]]></ModificationDate>
+<TestPath><![CDATA[C:\Tk240\komanda_zdorovie\Split_texts\part1\]]></TestPath>
+<RuleStatus><![CDATA[1]]></RuleStatus>
+<DisplayName><![CDATA[utochnenie]]></DisplayName>
+<Name><![CDATA[utochnenie]]></Name>
+<ShortName><![CDATA[utochnenie]]></ShortName>
+</Topic>
+<Topic>
+<StringID><![CDATA[Top/science_words/sravnenie]]></StringID>
+<catpath><![CDATA[Top/science_words/sravnenie]]></catpath>
+<rules type="BOOLEAN">
+<![CDATA[(OR,(DIST_2,"как","правило"),(DIST_2,"то","же"),(DIST_2,"такой","же"),(DIST_4,"то","же","самое"),"одновременно",(DIST_2,"наряду","с"),(DIST_5,"в","том","же","ряду"),(DIST_5,"идентичное","явление","представляет","собой"),(DIST_2,"один","из"),(DIST_4,"это","в","частности"),(DIST_2,"в","частности"),(DIST_5,"один","из",(OR,"является","выступает")),"является","выступает") 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+]]>
+</rules>
+<ratio><![CDATA[10]]></ratio>
+<CreationDate><![CDATA[May 27, 2014]]></CreationDate>
+<ModificationDate><![CDATA[May 27, 2014]]></ModificationDate>
+<TestPath><![CDATA[C:\Tk240\komanda_zdorovie\Split_texts\part1\]]></TestPath>
+<RuleStatus><![CDATA[1]]></RuleStatus>
+<DisplayName><![CDATA[sravnenie]]></DisplayName>
+<Name><![CDATA[sravnenie]]></Name>
+<ShortName><![CDATA[sravnenie]]></ShortName>
+</Topic>
+<Topic>
+<StringID><![CDATA[Top/science_words/istochnic]]></StringID>
+<catpath><![CDATA[Top/science_words/istochnic]]></catpath>
+<rules type="BOOLEAN">
+<![CDATA[(OR, "По-моему", (DIST_2, "я", "считаю"), (DIST_3, "я", "полагаю"), (DIST_5, "как", "мы", "попытались", "показать"), (DIST_3, "думается", "что"), (DIST_4, "на", "наш", "взгляд"), (DIST_4, "берем", "смелость", "утверждать"), (DIST_4, "мы", "предпочитаем", "говорить"), (DIST_3, "автор", "полагает"), (DIST_4, "по", "нашему", "мнению"), (DIST_4, "по", "нашему", "убеждению"), (DIST_5, "по", "нашему", "глубокому", "убеждению"), (DIST_4, "иллюстрируем", "данное", "положение"), (DIST_5, "в", "качестве", "иллюстрации", "используем"), (DIST_4, "в", "применении", "к"), (DIST_3, "демонстрируем", "примером"), (DIST_3, "По", "словам"), "писал","Отмечал","Считал",(DIST_3, "по", "мнению"), (DIST_3, "По", "данным"), (DIST_3, "По", "утверждению"), (DIST_3, "как", "утверждает"), (DIST_3, "Как", "сообщает"), (DIST_3, "Как", "считает"), (DIST_3, "вслед", "за "), (DIST_3, "Автор", "сравнивает"), (DIST_3, "Автор", "Сопоставляет"), (DIST_3, "Автор", "Противопоставляет"), (DIST_3, "Автор", "соглашается "), (DIST_3, "Автор", "согласен"), (DIST_3, "Автор", "возражает "), (DIST_3, "Автор", "противоречит"), (DIST_3, "Автор", "спорит"), (DIST_3, "Автор", "опровергает"), (DIST_3, "Автор", "полемизирует"), (DIST_3, "Автор", "критикует"), (DIST_5, "Автор", "расходится", "во", "взглядах"), (DIST_4, "Автор", "выдвигает", "возражения"), (DIST_4, "Автор", "выдвигает", "аргументы"), (DIST_4, "Автор", "выдвигает", "доказательства"), (DIST_4, "Автор", "приводит", "возражения"), (DIST_4, "Автор", "приводит", "аргументы"), (DIST_4, "Автор", "приводит", "доказательства"), (DIST_3, "Автор", "ссылается"), (DIST_3, "Автор", "опирается"), (DIST_3, "Автор", " исходит"), (DIST_3, "Автор", " иллюстрирует"), (DIST_4, "Автор", "приводит", "пример"), (DIST_3, "Автор", "цитирует "), (DIST_3, "Автор", "обосновывает"), (DIST_5, "Автор", "имеет", "в", "виду"), (DIST_5, "Автор", "затрагивает", "следующие", "проблемы"), (DIST_5, "Автор", "ставит", "следующие", "проблемы"), (DIST_5, "Автор", "освещает", "следующие", "проблемы"), (DIST_6, "Автор", "останавливается", "на", "следующих", "проблемах "), (DIST_6, "Автор", "останавливается", "на", "следующих", "вопросах"), (DIST_6, "Автор", "останавливается", "на", "следующих", "фактах"), (DIST_5, "Автор", "приводит", "к", "выводу "), (DIST_6, "Автор", "подводит", "нас", "к", "выводу "), (DIST_5, "Автор", "приводит", "к", "заключению"), (DIST_6, "Автор", "подводит", "нас", "к", "заключению"), (DIST_4, "Автор", "делает", "вывод "), (DIST_4, "Автор", "делает", "заключение"), (DIST_4, "Автор", "подводит", "итог"), (DIST_3, "Автор", "говорит"), (DIST_3, "Автор", "анализирует"), (DIST_3, "Автор", "характеризует"), (DIST_3, "Автор", "раскрывает"), (DIST_4, "Автор", "вскрывает", "недостатки"), (DIST_4, "Автор", "вскрывает", "противоречия"), (DIST_4, "Автор", "вскрывает", "сущность "), (DIST_4, "Автор", "вскрывает", "суть"), (DIST_3, "Автор", "вскрывает "), (DIST_3, "Автор", "разбирает"), (DIST_3, "Автор", "описывает"), (DIST_3, "Автор", "называет"), (DIST_3, "Автор", "формулирует"), (DIST_4, "Автор", "выдвигает", "вопрос"), (DIST_4, "Автор", "выдвигает", "гипотезу"), (DIST_4, "Автор", "высказывает", "предположение"), (DIST_3, "Автор", "останавливается"), (DIST_3, "Автор", "касается "), (DIST_3, "Автор", "отмечает"), (DIST_3, "Автор", "подчеркивает "), (DIST_3, "Автор", "выделяет"), (DIST_4, "Автор", "уделяет", "внимание"), (DIST_5, "Автор", "уделяет", "особое", "внимание"), (DIST_5, "Автор", "уделяет", "специальное", "внимание"), (DIST_3, "Автор", "утверждает"), (DIST_3, "Автор", "доказывает"), (DIST_3, "Автор", "считает"), (DIST_3, "Автор", "полагает"), (DIST_6, "Автор", "стоит", "на", "точке", "зрения"), (DIST_5, "Автор", "придерживается", "точки", "зрения"), (DIST_5, "Автор", "разделяет", "точку", "зрения"), (DIST_5, "Автор", "отстаивает", "точку", "зрения"), (DIST_6, "Автор", "объясняет", "это", "тем", "что"), (DIST_8, "Автор", "видит", "причину", "этого", "в", "том", "что"), (DIST_4, "В", "статье", "приводится"), (DIST_4, "В", "статье", "Дается"), (DIST_7, "Труд", "автора", "касается", "следующих", "проблем", "фактов"), (DIST_6, "Труд", "автора", "касается", "следующих", "вопросов"), (DIST_6, "Труд", "автора", "касается", "следующих", "проблем"))
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+]]>
+</rules>
+<ratio><![CDATA[10]]></ratio>
+<CreationDate><![CDATA[May 27, 2014]]></CreationDate>
+<ModificationDate><![CDATA[May 29, 2014]]></ModificationDate>
+<TestPath><![CDATA[C:\Tk240\komanda_zdorovie\Split_texts\part1\]]></TestPath>
+<RuleStatus><![CDATA[1]]></RuleStatus>
+<DisplayName><![CDATA[istochnic]]></DisplayName>
+<Name><![CDATA[istochnic]]></Name>
+<ShortName><![CDATA[istochnic]]></ShortName>
+</Topic>
+<Topic>
+<StringID><![CDATA[Top/science_words/usuality]]></StringID>
+<catpath><![CDATA[Top/science_words/usuality]]></catpath>
+<rules type="BOOLEAN">
+<![CDATA[(OR, "обычно", (DIST_4, "в", "большинстве", "случаев"), (DIST_4, "чаще", "всего"), "типично", "характерно", (DIST_3, "наиболее", "распространен"), (DIST_3, "как", "правило"))
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+]]>
+</rules>
+<ratio><![CDATA[10]]></ratio>
+<CreationDate><![CDATA[May 29, 2014]]></CreationDate>
+<ModificationDate><![CDATA[May 29, 2014]]></ModificationDate>
+<TestPath><![CDATA[C:\Tk240\komanda_zdorovie\Split_texts\part1\]]></TestPath>
+<RuleStatus><![CDATA[1]]></RuleStatus>
+<DisplayName><![CDATA[usuality]]></DisplayName>
+<Name><![CDATA[usuality]]></Name>
+<ShortName><![CDATA[usuality]]></ShortName>
+</Topic>
+<Topic>
+<StringID><![CDATA[Top/science_words/conclusion]]></StringID>
+<catpath><![CDATA[Top/science_words/conclusion]]></catpath>
+<rules type="BOOLEAN">
+<![CDATA[(OR, (DIST_4, "в", "общем"), (DIST_4, "одним", "словом"), "итак", (DIST_4, "таким", "образом"), (DIST_3, "в", "итоге"), "обобщая", (DIST_4, "все", "сказанное"), (DIST_4, "в", "заключение"), "наконец", (DIST_4, "обобщая", "все", "сказанное"), (DIST_4, "в", "последнюю", "очередь"), "заключение", (DIST_4, "как", "отмечалось"), (DIST_4, "как", "было", "показано"), (DIST_4, "как", "отмечалось", "выше"), (DIST_3, "сказанное", "ранее"), (DIST_4, "в", "приведенных", "мнениях"), (DIST_3, "намеченных", "выше"), (DIST_3, "вернемся", "к")) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+]]>
+</rules>
+<ratio><![CDATA[10]]></ratio>
+<CreationDate><![CDATA[May 29, 2014]]></CreationDate>
+<ModificationDate><![CDATA[May 29, 2014]]></ModificationDate>
+<TestPath><![CDATA[C:\Tk240\komanda_zdorovie\Split_texts\part1\]]></TestPath>
+<RuleStatus><![CDATA[1]]></RuleStatus>
+<DisplayName><![CDATA[conclusion]]></DisplayName>
+<Name><![CDATA[conclusion]]></Name>
+<ShortName><![CDATA[conclusion]]></ShortName>
+</Topic>
+<Topic>
+<StringID><![CDATA[Top/semantic_words]]></StringID>
+<catpath><![CDATA[Top/semantic_words]]></catpath>
+<rules type="LINGUISTICS">
+<![CDATA[ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+]]>
+</rules>
+<ratio><![CDATA[10]]></ratio>
+<CreationDate><![CDATA[May 27, 2014]]></CreationDate>
+<ModificationDate><![CDATA[May 29, 2014]]></ModificationDate>
+<TestPath><![CDATA[C:\Tk240\komanda_zdorovie\Split_texts\part1\]]></TestPath>
+<RuleStatus><![CDATA[1]]></RuleStatus>
+<DisplayName><![CDATA[semantic_words]]></DisplayName>
+<Name><![CDATA[semantic_words]]></Name>
+<ShortName><![CDATA[semantic_words]]></ShortName>
+</Topic>
+<Topic>
+<StringID><![CDATA[Top/semantic_words/negation]]></StringID>
+<catpath><![CDATA[Top/semantic_words/negation]]></catpath>
+<rules type="LINGUISTICS">
+<![CDATA[
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+]]>
+</rules>
+<ratio><![CDATA[10]]></ratio>
+<CreationDate><![CDATA[May 28, 2014]]></CreationDate>
+<TestPath><![CDATA[C:\Tk240\komanda_zdorovie\Split_texts\part1\]]></TestPath>
+<RuleStatus><![CDATA[1]]></RuleStatus>
+<DisplayName><![CDATA[negation]]></DisplayName>
+<Name><![CDATA[negation]]></Name>
+<ShortName><![CDATA[negation]]></ShortName>
+</Topic>
+<Topic>
+<StringID><![CDATA[Top/semantic_words/negation/neg_mestoimeniya]]></StringID>
+<catpath><![CDATA[Top/semantic_words/negation/neg_mestoimeniya]]></catpath>
+<rules type="BOOLEAN">
+<![CDATA[(OR,"никто","никого",(DIST_4,"ни","у","кого"), "ничто", "ничего", (DIST_4, "ни", "до", "чего"), "никакой", "никакого", (DIST_4, "ни", "у", "кого"), "ничей", "ничьего", (DIST_4, "ни", "у", "чьего"), (DIST_4, "не", "за", "чем"), "некто") 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+]]>
+</rules>
+<ratio><![CDATA[10]]></ratio>
+<CreationDate><![CDATA[May 28, 2014]]></CreationDate>
+<ModificationDate><![CDATA[May 29, 2014]]></ModificationDate>
+<TestPath><![CDATA[C:\Tk240\komanda_zdorovie\Split_texts\part1\]]></TestPath>
+<RuleStatus><![CDATA[1]]></RuleStatus>
+<DisplayName><![CDATA[neg_mestoimeniya]]></DisplayName>
+<Name><![CDATA[neg_mestoimeniya]]></Name>
+<ShortName><![CDATA[neg_mestoimeniya]]></ShortName>
+</Topic>
+<Topic>
+<StringID><![CDATA[Top/semantic_words/negation/neg_narechiya]]></StringID>
+<catpath><![CDATA[Top/semantic_words/negation/neg_narechiya]]></catpath>
+<rules type="BOOLEAN">
+<![CDATA[(OR, "никогда", "нигде", "ниоткуда", "никак", "нисколько", "нипочем", "ничуть", "некуда", "незачем", "некогда", "негде") 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+]]>
+</rules>
+<ratio><![CDATA[10]]></ratio>
+<CreationDate><![CDATA[May 28, 2014]]></CreationDate>
+<ModificationDate><![CDATA[May 29, 2014]]></ModificationDate>
+<TestPath><![CDATA[C:\Tk240\komanda_zdorovie\Split_texts\part1\]]></TestPath>
+<RuleStatus><![CDATA[1]]></RuleStatus>
+<DisplayName><![CDATA[neg_narechiya]]></DisplayName>
+<Name><![CDATA[neg_narechiya]]></Name>
+<ShortName><![CDATA[neg_narechiya]]></ShortName>
+</Topic>
+<Topic>
+<StringID><![CDATA[Top/semantic_words/negation/neg_chastitsy]]></StringID>
+<catpath><![CDATA[Top/semantic_words/negation/neg_chastitsy]]></catpath>
+<rules type="BOOLEAN">
+<![CDATA[(OR, (DIST_4, "вряд", "ли", "не"), (DIST_4, "едва", "ли", "не"), (DIST_4, "чуть", "ли", "не"), (DIST_3, "вовсе", "не"), (DIST_4, "не", "может", "же"), (DIST_3, "кто", "не"), (DIST_3, "как", "не"), (DIST_4, "где", "только", "не"), (DIST_4, "кто", "только", "не"), (DIST_3, "где", "не"), (DIST_4, "чем", "не"),(DIST_3, "чего", "не"), (DIST_4, "чего", "только", "не"), (DIST_4, "да", "не", "ли"), (DIST_3, "пока", "не"), (DIST_4, "далеко", "не"), (DIST_4, "ничуть", "не"), (DIST_4, "нисколько", "не"), (DIST_4, "вовсе", "не"), (DIST_3, "не", "то"), (DIST_6, "не", "то"), (DIST_5, "не", "только", "но"), (DIST_7, "не", "то", "что", "не", "а"), (DIST_7, "не", "то", "чтобы", "а"), (DIST_3, "нигде", "не"), (DIST_3, "нет", "ни"), (DIST_5, "ни", "дать", "ни", "взять"), (DIST_5, "ни", "пуха", "ни", "пера"), (DIST_5, "ни", "слуху", "ни", "духу"), (DIST_4, "ни", "с", "места"), (DIST_5, "ни", "свет", "заря"), (DIST_5, "ни", "жив", "мертв"), (DIST_4, "ни", "то", "сё"), (DIST_4, "ни", "рыба", "мясо"), (DIST_4, "ни", "дать", "взять"), (DIST_3, "кто", "ни"), (DIST_3, "что", "ни"), (DIST_3, "какой", "ни"), (DIST_4, "куда", "бы", "ни"), (DIST_4, "где", "бы", "ни"), (DIST_3, "сколько", "ни"), (DIST_3, "как", "ни"), (DIST_4, "ни", "ни"), (DIST_4, "кто", "бы", "ни"), (DIST_4, "что", "бы", "ни"), (DIST_4, "как", "бы", "ни"), (DIST_4, "сколько", "бы", "ни"), (DIST_3, "куда", "ни"), (DIST_4, "где", "ни"), (DIST_4, "какой", "бы", "ни"), (DIST_3, "чей", "ни"), (DIST_4, "чей", "бы", "ни"), (DIST_3, "когда", "ни"), (DIST_4, "куда", "ни", "шло"), (DIST_4, "откуда", "ни", "возьмись"), (DIST_4, "ни", "с", "места"), (DIST_4, "ни", "шагу", "далее"), (DIST_3, "ни", "слова")) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+]]>
+</rules>
+<ratio><![CDATA[10]]></ratio>
+<CreationDate><![CDATA[May 28, 2014]]></CreationDate>
+<ModificationDate><![CDATA[May 29, 2014]]></ModificationDate>
+<TestPath><![CDATA[C:\Tk240\komanda_zdorovie\Split_texts\part1\]]></TestPath>
+<RuleStatus><![CDATA[1]]></RuleStatus>
+<DisplayName><![CDATA[neg_chastitsy]]></DisplayName>
+<Name><![CDATA[neg_chastitsy]]></Name>
+<ShortName><![CDATA[neg_chastitsy]]></ShortName>
+</Topic>
+<Topic>
+<StringID><![CDATA[Top/semantic_words/asking]]></StringID>
+<catpath><![CDATA[Top/semantic_words/asking]]></catpath>
+<rules type="LINGUISTICS">
+<![CDATA[
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+]]>
+</rules>
+<ratio><![CDATA[10]]></ratio>
+<CreationDate><![CDATA[May 29, 2014]]></CreationDate>
+<TestPath><![CDATA[C:\Tk240\komanda_zdorovie\Split_texts\part1\]]></TestPath>
+<RuleStatus><![CDATA[1]]></RuleStatus>
+<DisplayName><![CDATA[asking]]></DisplayName>
+<Name><![CDATA[asking]]></Name>
+<ShortName><![CDATA[asking]]></ShortName>
+</Topic>
+<Topic>
+<StringID><![CDATA[Top/semantic_words/asking/ask_vvod_slova]]></StringID>
+<catpath><![CDATA[Top/semantic_words/asking/ask_vvod_slova]]></catpath>
+<rules type="BOOLEAN">
+<![CDATA[(OR, "видишь", "видите", "знаешь", "знаете", "помнишь", "помните", "понимаешь", "понимаете", "веришь", "верите", "послушайте", "позвольте", "представьте", "поверьте", (DIST_3, "представьте", "себе"), "поверьте", "вообразите", "признайтесь", "согласитесь", "заметьте", (DIST_4, "если", "хотите", "знать"), (DIST_3, "что", "важно"), (DIST_4, "что", "ещё", "важнее"), (DIST_3, "что", "существенно"), (DIST_4, "что", "еще", "существенней"), (DIST_3, "чем", "вы"), (DIST_4, "не", "хотите", "ли"), (DIST_3, "задумывались", "ли", "вы")) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+]]>
+</rules>
+<ratio><![CDATA[10]]></ratio>
+<CreationDate><![CDATA[May 29, 2014]]></CreationDate>
+<ModificationDate><![CDATA[May 29, 2014]]></ModificationDate>
+<TestPath><![CDATA[C:\Tk240\komanda_zdorovie\Split_texts\part1\]]></TestPath>
+<RuleStatus><![CDATA[1]]></RuleStatus>
+<DisplayName><![CDATA[ask_vvod_slova]]></DisplayName>
+<Name><![CDATA[ask_vvod_slova]]></Name>
+<ShortName><![CDATA[ask_vvod_slova]]></ShortName>
+</Topic>
+<Topic>
+<StringID><![CDATA[Top/semantic_words/asking/ask_mestoim]]></StringID>
+<catpath><![CDATA[Top/semantic_words/asking/ask_mestoim]]></catpath>
+<rules type="BOOLEAN">
+<![CDATA[(OR, "кто", "что", "который", "какой", "каковой", "чей", "сколько", "каков", "чьим", "чего", "скольких", "кой", (DIST_3, "на", "сколько"),(DIST_3, "во", "сколько"), "ли", "ль", "неужели", "разве") 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+]]>
+</rules>
+<ratio><![CDATA[10]]></ratio>
+<CreationDate><![CDATA[May 29, 2014]]></CreationDate>
+<ModificationDate><![CDATA[May 29, 2014]]></ModificationDate>
+<TestPath><![CDATA[C:\Tk240\komanda_zdorovie\Split_texts\part1\]]></TestPath>
+<RuleStatus><![CDATA[1]]></RuleStatus>
+<DisplayName><![CDATA[ask_mestoim]]></DisplayName>
+<Name><![CDATA[ask_mestoim]]></Name>
+<ShortName><![CDATA[ask_mestoim]]></ShortName>
+</Topic>
+<Topic>
+<StringID><![CDATA[Top/semantic_words/logic]]></StringID>
+<catpath><![CDATA[Top/semantic_words/logic]]></catpath>
+<rules type="LINGUISTICS">
+<![CDATA[
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+]]>
+</rules>
+<ratio><![CDATA[10]]></ratio>
+<CreationDate><![CDATA[May 29, 2014]]></CreationDate>
+<TestPath><![CDATA[C:\Tk240\komanda_zdorovie\Split_texts\part1\]]></TestPath>
+<RuleStatus><![CDATA[1]]></RuleStatus>
+<DisplayName><![CDATA[logic]]></DisplayName>
+<Name><![CDATA[logic]]></Name>
+<ShortName><![CDATA[logic]]></ShortName>
+</Topic>
+<Topic>
+<StringID><![CDATA[Top/semantic_words/logic/svyaz_misley]]></StringID>
+<catpath><![CDATA[Top/semantic_words/logic/svyaz_misley]]></catpath>
+<rules type="BOOLEAN">
+<![CDATA[(OR, "во-первых", "во-вторых", "в-третьих", "наконец", "итак", "следовательно", "значит", (DIST_3, "таким", "образом"), "напротив", "наоборот", "например", (DIST_3, "к", "примеру"), (DIST_3, "в", "частности"), (DIST_3, "кроме", "того"), (DIST_4, "к", "тому", "же"), (DIST_4, "в", "довершении", "всего"), "вдобавок", "притом", (DIST_4, "с", "одной", "стороны"), (DIST_4, "с", "другой", "стороны"), (DIST_3, "между", "прочим"), (DIST_3, "в", "общем"), "впрочем", (DIST_3, "сверх", "того"), (DIST_3, "стало", "быть"), "главное", "кстати", "сказать", (DIST_4, "к", "слову", "сказать")) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+]]>
+</rules>
+<ratio><![CDATA[10]]></ratio>
+<CreationDate><![CDATA[May 29, 2014]]></CreationDate>
+<ModificationDate><![CDATA[May 29, 2014]]></ModificationDate>
+<TestPath><![CDATA[C:\Tk240\komanda_zdorovie\Split_texts\part1\]]></TestPath>
+<RuleStatus><![CDATA[1]]></RuleStatus>
+<DisplayName><![CDATA[svyaz_misley]]></DisplayName>
+<Name><![CDATA[svyaz_misley]]></Name>
+<ShortName><![CDATA[svyaz_misley]]></ShortName>
+</Topic>
+<Topic>
+<StringID><![CDATA[Top/semantic_words/logic/oformleniye_mysley]]></StringID>
+<catpath><![CDATA[Top/semantic_words/logic/oformleniye_mysley]]></catpath>
+<rules type="BOOLEAN">
+<![CDATA[(OR, "словом", (DIST_3, "одним", "словом"), (DIST_3, "другими", "словами"), (DIST_3, "иначе", "говоря"), (DIST_3, "прямо", "говоря"), (DIST_3, "грубо", "говоря"), (DIST_3, "собственно", "говоря"), "собственно", (DIST_3, "короче", "говоря"), "короче", "вернее", (DIST_3, "лучше", "сказать"), (DIST_3, "прямо", "сказать"), (DIST_3, "проще", "сказать"), (DIST_3, "так", "сказать"), (DIST_3, "как", "бы", "сказать"), (DIST_6, "если", "можно", "так", "выразится"), (DIST_3, "что", "называется")) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+]]>
+</rules>
+<ratio><![CDATA[10]]></ratio>
+<CreationDate><![CDATA[May 29, 2014]]></CreationDate>
+<ModificationDate><![CDATA[May 29, 2014]]></ModificationDate>
+<TestPath><![CDATA[C:\Tk240\komanda_zdorovie\Split_texts\part1\]]></TestPath>
+<RuleStatus><![CDATA[1]]></RuleStatus>
+<DisplayName><![CDATA[oformleniye_mysley]]></DisplayName>
+<Name><![CDATA[oformleniye_mysley]]></Name>
+<ShortName><![CDATA[oformleniye_mysley]]></ShortName>
+</Topic>
+<Topic>
+<StringID><![CDATA[Top/semantic_words/expressing_feelings]]></StringID>
+<catpath><![CDATA[Top/semantic_words/expressing_feelings]]></catpath>
+<rules type="LINGUISTICS">
+<![CDATA[
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+]]>
+</rules>
+<ratio><![CDATA[10]]></ratio>
+<CreationDate><![CDATA[May 29, 2014]]></CreationDate>
+<TestPath><![CDATA[C:\Tk240\komanda_zdorovie\Split_texts\part1\]]></TestPath>
+<RuleStatus><![CDATA[1]]></RuleStatus>
+<DisplayName><![CDATA[expressing_feelings]]></DisplayName>
+<Name><![CDATA[expressing_feelings]]></Name>
+<ShortName><![CDATA[expressing_feelings]]></ShortName>
+</Topic>
+<Topic>
+<StringID><![CDATA[Top/semantic_words/expressing_feelings/happiness]]></StringID>
+<catpath><![CDATA[Top/semantic_words/expressing_feelings/happiness]]></catpath>
+<rules type="BOOLEAN">
+<![CDATA[(OR, (DIST_3, "к", "счастью"), (DIST_3, "на", "счастье"), (DIST_3, "на", "радость"), (DIST_3, "к", "удовольствию"), (DIST_3, "что", "хорошо"), (DIST_4, "что", "ещё", "лучше"), "прекрасно", "восхитительно", "изумительно", "идеально", "непревзойденно") 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+]]>
+</rules>
+<ratio><![CDATA[10]]></ratio>
+<CreationDate><![CDATA[May 29, 2014]]></CreationDate>
+<ModificationDate><![CDATA[May 29, 2014]]></ModificationDate>
+<TestPath><![CDATA[C:\Tk240\komanda_zdorovie\Split_texts\part1\]]></TestPath>
+<RuleStatus><![CDATA[1]]></RuleStatus>
+<DisplayName><![CDATA[happiness]]></DisplayName>
+<Name><![CDATA[happiness]]></Name>
+<ShortName><![CDATA[happiness]]></ShortName>
+</Topic>
+<Topic>
+<StringID><![CDATA[Top/semantic_words/expressing_feelings/regretting]]></StringID>
+<catpath><![CDATA[Top/semantic_words/expressing_feelings/regretting]]></catpath>
+<rules type="BOOLEAN">
+<![CDATA[(OR, (DIST_3, "к", "несчастью"), (DIST_3, "по", "несчастью"), (DIST_3, "к", "сожалению"), (DIST_3, "к", "стыду"), (DIST_3, "к", "прискорбию"), (DIST_3, "к", "досаде"), (DIST_3, "на", "беду"), (DIST_3, "как", "нарочно"), (DIST_3, "грешным", "делом"), (DIST_3, "что", "обидно"), "увы", "досадно", "отвратительно", "ужасно", "нарочно", "прискорбно") 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+]]>
+</rules>
+<ratio><![CDATA[10]]></ratio>
+<CreationDate><![CDATA[May 29, 2014]]></CreationDate>
+<ModificationDate><![CDATA[May 29, 2014]]></ModificationDate>
+<TestPath><![CDATA[C:\Tk240\komanda_zdorovie\Split_texts\part1\]]></TestPath>
+<RuleStatus><![CDATA[1]]></RuleStatus>
+<DisplayName><![CDATA[regretting]]></DisplayName>
+<Name><![CDATA[regretting]]></Name>
+<ShortName><![CDATA[regretting]]></ShortName>
+</Topic>
+<Topic>
+<StringID><![CDATA[Top/semantic_words/expressing_feelings/amaze]]></StringID>
+<catpath><![CDATA[Top/semantic_words/expressing_feelings/amaze]]></catpath>
+<rules type="BOOLEAN">
+<![CDATA[(OR, (DIST_3, "к", "удивлению"), (DIST_3, "удивительное", "дело"), (DIST_3, "к", "изумлению"), (DIST_3, "странное", "дело"), (DIST_3, "непонятное", "дело"), "удивительно", "странно", "непонятно", "изумительно", "восхитительно", "неожиданно", "нежданно") 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+]]>
+</rules>
+<ratio><![CDATA[10]]></ratio>
+<CreationDate><![CDATA[May 29, 2014]]></CreationDate>
+<ModificationDate><![CDATA[May 29, 2014]]></ModificationDate>
+<TestPath><![CDATA[C:\Tk240\komanda_zdorovie\Split_texts\part1\]]></TestPath>
+<RuleStatus><![CDATA[1]]></RuleStatus>
+<DisplayName><![CDATA[amaze]]></DisplayName>
+<Name><![CDATA[amaze]]></Name>
+<ShortName><![CDATA[amaze]]></ShortName>
+</Topic>
+<Topic>
+<StringID><![CDATA[Top/semantic_words/expressing_feelings/fear]]></StringID>
+<catpath><![CDATA[Top/semantic_words/expressing_feelings/fear]]></catpath>
+<rules type="BOOLEAN">
+<![CDATA[(OR, (DIST_3, "неровен", "час"), (DIST_3, "чего", "доброго"), (DIST_4, "не", "дай", "бог"), (DIST_3, "того", "и", "гляди")) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+]]>
+</rules>
+<ratio><![CDATA[10]]></ratio>
+<CreationDate><![CDATA[May 29, 2014]]></CreationDate>
+<ModificationDate><![CDATA[May 29, 2014]]></ModificationDate>
+<TestPath><![CDATA[C:\Tk240\komanda_zdorovie\Split_texts\part1\]]></TestPath>
+<RuleStatus><![CDATA[1]]></RuleStatus>
+<DisplayName><![CDATA[fear]]></DisplayName>
+<Name><![CDATA[fear]]></Name>
+<ShortName><![CDATA[fear]]></ShortName>
+</Topic>
+<Topic>
+<StringID><![CDATA[Top/semantic_words/expressing_feelings/general_express]]></StringID>
+<catpath><![CDATA[Top/semantic_words/expressing_feelings/general_express]]></catpath>
+<rules type="BOOLEAN">
+<![CDATA[(OR, (DIST_3, "по", "сути"), (DIST_3, "по", "существу"), (DIST_3, "по", "душе"), (DIST_3, "по", "правде"), (DIST_4, "по", "правде", "сказать"), "правда", (DIST_4, "если", "правду", "сказать"), (DIST_3, "смешно", "сказать"), (DIST_3, "смешно", "говорить"), (DIST_4, "сказать", "по", "чести"), (DIST_3, "между", "нами", "говоря"), (DIST_3, "нечего", "зря", "говорить"), "признаюсь", (DIST_3, "кроме", "шуток"), (DIST_4, "в", "сущности", "говоря"), (DIST_3, "что", "за"), (DIST_3, "ну", "и"), "как") 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+]]>
+</rules>
+<ratio><![CDATA[10]]></ratio>
+<CreationDate><![CDATA[May 29, 2014]]></CreationDate>
+<ModificationDate><![CDATA[May 29, 2014]]></ModificationDate>
+<TestPath><![CDATA[C:\Tk240\komanda_zdorovie\Split_texts\part1\]]></TestPath>
+<RuleStatus><![CDATA[1]]></RuleStatus>
+<DisplayName><![CDATA[general_express]]></DisplayName>
+<Name><![CDATA[general_express]]></Name>
+<ShortName><![CDATA[general_express]]></ShortName>
+</Topic>
+<Topic>
+<StringID><![CDATA[Top/semantic_words/expressing_feelings/assurance]]></StringID>
+<catpath><![CDATA[Top/semantic_words/expressing_feelings/assurance]]></catpath>
+<rules type="LINGUISTICS">
+<![CDATA[
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+]]>
+</rules>
+<ratio><![CDATA[10]]></ratio>
+<CreationDate><![CDATA[May 29, 2014]]></CreationDate>
+<TestPath><![CDATA[C:\Tk240\komanda_zdorovie\Split_texts\part1\]]></TestPath>
+<RuleStatus><![CDATA[1]]></RuleStatus>
+<DisplayName><![CDATA[assurance]]></DisplayName>
+<Name><![CDATA[assurance]]></Name>
+<ShortName><![CDATA[assurance]]></ShortName>
+</Topic>
+<Topic>
+<StringID><![CDATA[Top/semantic_words/expressing_feelings/assurance/sure]]></StringID>
+<catpath><![CDATA[Top/semantic_words/expressing_feelings/assurance/sure]]></catpath>
+<rules type="BOOLEAN">
+<![CDATA[(OR, "конечно", "разумеется", "бесспорно", "несомненно", (DIST_3, "без", "сомнения"), "безусловно", "дейтвительно", (DIST_4, "в", "самом", "деле"), "правда", (DIST_3, "само", "собой"), "подлинно") 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+]]>
+</rules>
+<ratio><![CDATA[10]]></ratio>
+<CreationDate><![CDATA[May 29, 2014]]></CreationDate>
+<ModificationDate><![CDATA[May 29, 2014]]></ModificationDate>
+<TestPath><![CDATA[C:\Tk240\komanda_zdorovie\Split_texts\part1\]]></TestPath>
+<RuleStatus><![CDATA[1]]></RuleStatus>
+<DisplayName><![CDATA[sure]]></DisplayName>
+<Name><![CDATA[sure]]></Name>
+<ShortName><![CDATA[sure]]></ShortName>
+</Topic>
+<Topic>
+<StringID><![CDATA[Top/semantic_words/expressing_feelings/assurance/unsure]]></StringID>
+<catpath><![CDATA[Top/semantic_words/expressing_feelings/assurance/unsure]]></catpath>
+<rules type="BOOLEAN">
+<![CDATA[(OR, "наверное", "кажется", (DIST_3, "как", "кажется"), "вероятно", (DIST_4, "по", "всей", "вероятности"), "очевидно", "возможно", "пожалуй", "видно", "по-видимому", (DIST_3, "как", "видно"), "верно", (DIST_3, "может", "быть"), (DIST_3, "должно", "быть"), "думается", "думаю", "полагаю", (DIST_3, "надо", "полагать"), "надеюсь", (DIST_3, "некоторым", "образом"), (DIST_4, "в", "каком-то", "смысле"), "положим", "предположим", "допустим", (DIST_3, "если", "хотите"), (DIST_4, "так", "или", "иначе"), (DIST_3, "вряд", "ли"), (DIST_3, "едва", "ли"), (DIST_3, "навряд", "ли"), "авось") 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+]]>
+</rules>
+<ratio><![CDATA[10]]></ratio>
+<CreationDate><![CDATA[May 29, 2014]]></CreationDate>
+<ModificationDate><![CDATA[May 29, 2014]]></ModificationDate>
+<TestPath><![CDATA[C:\Tk240\komanda_zdorovie\Split_texts\part1\]]></TestPath>
+<RuleStatus><![CDATA[1]]></RuleStatus>
+<DisplayName><![CDATA[unsure]]></DisplayName>
+<Name><![CDATA[unsure]]></Name>
+<ShortName><![CDATA[unsure]]></ShortName>
+</Topic>
+<Topic>
+<StringID><![CDATA[Top/semantic_words/expressing_feelings/rectification]]></StringID>
+<catpath><![CDATA[Top/semantic_words/expressing_feelings/rectification]]></catpath>
+<rules type="BOOLEAN">
+<![CDATA[(OR, "именно", (DIST_3, "как", "раз"), "прямо", "точно", "точь-в-точь", "напоминаю", "повторяю", "подчеркиваю") 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+]]>
+</rules>
+<ratio><![CDATA[10]]></ratio>
+<CreationDate><![CDATA[May 29, 2014]]></CreationDate>
+<ModificationDate><![CDATA[May 29, 2014]]></ModificationDate>
+<TestPath><![CDATA[C:\Tk240\komanda_zdorovie\Split_texts\part1\]]></TestPath>
+<RuleStatus><![CDATA[1]]></RuleStatus>
+<DisplayName><![CDATA[rectification]]></DisplayName>
+<Name><![CDATA[rectification]]></Name>
+<ShortName><![CDATA[rectification]]></ShortName>
+</Topic>
+<Topic>
+<StringID><![CDATA[Top/semantic_words/comparison]]></StringID>
+<catpath><![CDATA[Top/semantic_words/comparison]]></catpath>
+<rules type="BOOLEAN">
+<![CDATA[(OR, "будто", "как", (DIST_3, "как", "будто"), (DIST_3, "как", "и"), "словно", "нежели", "чем", "точно", "что", "именно", "вроде", "подобно", (DIST_3, "равно", "как"), "вроде", "наподобие", "подобно", "совсем", "совершенно", "почти", "точь-в-точь", "просто", "прямо", (DIST_3, "прямо", "как"), "подобно", "столь", "такой", "тот", (DIST_3, "как", "правило"), (DIST_3, "как", "исключение"), (DIST_3, "как", "всегда"), (DIST_3, "как", "обычно"), (DIST_3, "как", "прежде"), (DIST_3, "как", "сейчас"), (DIST_3, "как", "нарочно"), (DIST_5, "не", "кто", "иной," , "как"), (DIST_5, "не", "что", "иное," , "как"), (DIST_5, "не", "кто", "другой,", "как"), (DIST_5, "не", "что", "другое,", "как"), (DIST_3, "вроде", "как"), (DIST_4, "вроде", "того", "как"), (DIST_3, "скорее", "чем"), (DIST_3, "скорее", "нежели")) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+]]>
+</rules>
+<ratio><![CDATA[10]]></ratio>
+<CreationDate><![CDATA[May 29, 2014]]></CreationDate>
+<ModificationDate><![CDATA[May 29, 2014]]></ModificationDate>
+<TestPath><![CDATA[C:\Tk240\komanda_zdorovie\Split_texts\part1\]]></TestPath>
+<RuleStatus><![CDATA[1]]></RuleStatus>
+<DisplayName><![CDATA[comparison]]></DisplayName>
+<Name><![CDATA[comparison]]></Name>
+<ShortName><![CDATA[comparison]]></ShortName>
+</Topic>
+<Topic>
+<StringID><![CDATA[Top/semantic_words/measure]]></StringID>
+<catpath><![CDATA[Top/semantic_words/measure]]></catpath>
+<rules type="BOOLEAN">
+<![CDATA[(OR, (DIST_4, "по", "меньшей", "мере"), (DIST_4, "по", "крайней", "мере"), (DIST_6, "в", "той", "или", "иной", "степени"), (DIST_4, "в", "значительной", "мере"), (DIST_3, "по", "обыкновению"), (DIST_3, "по", "обычаю"), "бывает", "случается", (DIST_3, "как", "водится"), (DIST_4, "как", "и", "всегда"), (DIST_4, "как", "это", "бывает"), (DIST_4, "как", "это", "случается"), "иногда", "только", "лишь", "всегда", "хоть", (DIST_3, "всего", "лишь"), (DIST_3, "лишь", "только"), (DIST_3, "хоть", "бы"), "хоть", "исключительно", "единственно") 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+]]>
+</rules>
+<ratio><![CDATA[10]]></ratio>
+<CreationDate><![CDATA[May 29, 2014]]></CreationDate>
+<ModificationDate><![CDATA[May 29, 2014]]></ModificationDate>
+<TestPath><![CDATA[C:\Tk240\komanda_zdorovie\Split_texts\part1\]]></TestPath>
+<RuleStatus><![CDATA[1]]></RuleStatus>
+<DisplayName><![CDATA[measure]]></DisplayName>
+<Name><![CDATA[measure]]></Name>
+<ShortName><![CDATA[measure]]></ShortName>
+</Topic>
+<Topic>
+<StringID><![CDATA[Top/semantic_words/broadcaster]]></StringID>
+<catpath><![CDATA[Top/semantic_words/broadcaster]]></catpath>
+<rules type="BOOLEAN">
+<![CDATA[(OR, (DIST_4, "по", "сообщению"), (DIST_5, "не", "могу", "не", "упомянуть"), (DIST_4, "нельзя", "не", "упомянуть"), (DIST_4, "по", "мнению"), "по-моему", "по-твоему", (DIST_4, "согласно", "данному", "источнику"), (DIST_3, "как", "гласит"), (DIST_4, "по", "выражению"), (DIST_3, "по", "слухам"), (DIST_3, "по", "пословице"), (DIST_3, "по", "преданию"), (DIST_5, "с", "точки", "зрения"), "помнится", "слышно", "дескать", "мол", "говорят", (DIST_3, "как", "слышно"), (DIST_3, "как", "думаю"), (DIST_3, "как", "считаю"), (DIST_3, "как", "помню"), (DIST_3, "как", "говорят"), (DIST_3, "как", "считают"), (DIST_3, "как", "известно"), (DIST_3, "как", "указывалось"), (DIST_3, "как", "оказалось"), (DIST_4, "как", "говорили", "в", "старину"), (DIST_4, "вдобавок", "хочется", "упомянуть"), (DIST_4, "на", "мой", "взгляд"), (DIST_3, "давайте", "вспомним"), "вот", "вон", (DIST_3, "вот", "и"), "этот", "тот", "то", "та", "те", "такой", "таков", "сколько", "сей", "экий", "этакий", "оный") 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+]]>
+</rules>
+<ratio><![CDATA[10]]></ratio>
+<CreationDate><![CDATA[May 29, 2014]]></CreationDate>
+<ModificationDate><![CDATA[May 29, 2014]]></ModificationDate>
+<TestPath><![CDATA[C:\Tk240\komanda_zdorovie\Split_texts\part1\]]></TestPath>
+<RuleStatus><![CDATA[1]]></RuleStatus>
+<DisplayName><![CDATA[broadcaster]]></DisplayName>
+<Name><![CDATA[broadcaster]]></Name>
+<ShortName><![CDATA[broadcaster]]></ShortName>
+</Topic>
+<Topic>
+<StringID><![CDATA[Top/semantic_words/secretory]]></StringID>
+<catpath><![CDATA[Top/semantic_words/secretory]]></catpath>
+<rules type="BOOLEAN">
+<![CDATA[(OR, "кроме", "только", "лишь", "исключительно", (DIST_3, "почти", "что"), "единственно", (DIST_3, "тот", "самый")) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+]]>
+</rules>
+<ratio><![CDATA[10]]></ratio>
+<CreationDate><![CDATA[May 29, 2014]]></CreationDate>
+<ModificationDate><![CDATA[May 29, 2014]]></ModificationDate>
+<TestPath><![CDATA[C:\Tk240\komanda_zdorovie\Split_texts\part1\]]></TestPath>
+<RuleStatus><![CDATA[1]]></RuleStatus>
+<DisplayName><![CDATA[secretory]]></DisplayName>
+<Name><![CDATA[secretory]]></Name>
+<ShortName><![CDATA[secretory]]></ShortName>
+</Topic>
+</TeragramDirectoryStructureV3>

@@ -1,0 +1,10 @@
+project=pr2
+language=Russian-UTF8
+is_utf_8
+paragraph_fpat=/n,/r/n,</p>
+individual_anchors
+categorizer=Russian-UTF8.directory.xml
+rule_cat=Russian-UTF8.rb.cat
+active_cat=rule
+export_utf8_mco
+expand_at_compile
